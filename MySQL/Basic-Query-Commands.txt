@@ -1,3 +1,5 @@
+>> MySQL Version 8.0.32-0
+
 SHOW DATABASES;
 
 CREATE DATABASE my_database_1;
