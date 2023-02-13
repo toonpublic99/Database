@@ -1,0 +1,25 @@
+SHOW DATABASES;
+
+CREATE DATABASE my_database_1;
+
+USE my_database_1;
+
+CREATE TABLE table_1 (
+    ID int,
+    productName varchar(100),
+    price FLOAT(8,2),
+    inventory MEDIUMINT(255)
+);
+
+INSERT INTO table_1 (ID, productName, price, inventory)
+VALUES (101, 'shirt', 2990.55, 1000);
+
+INSERT INTO table_1 (ID, productName, price, inventory)
+VALUES (102, 'trousers', 4500.00, 25410);
+
+INSERT INTO table_1 (ID, productName, price, inventory)
+VALUES (103, 'shoes', 14990.50, 701);
+
+SELECT * FROM table_1;
+
+DROP DATABASE my_database_1;
