@@ -1,5 +1,8 @@
 >> MySQL Version 8.0.32-0
 
+# คำสั่ง Login เข้า MySQL Database
+mysql -h mysql-db-1.cluster-cl2hlj4kubzd.ap-southeast-1.rds.amazonaws.com -P 3306 -u admin -p
+
 SHOW DATABASES;
 
 CREATE DATABASE my_database_1;
